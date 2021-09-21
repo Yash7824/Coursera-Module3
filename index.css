@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px){
+    body {
+        margin:0px;
+        padding: 0px;
+    }
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 80px;
+        font-weight: bolder;
+        
+    }
+
+    .container-fluid{
+        background-color: rgba(100, 93, 93, 0.192);
+        margin: 0px;
+        padding: 5px;
+        border: 2px solid black;
+    }
+
+    #navbarSupportedContent{
+        visibility: hidden;
+    }
+
+    .navbar-toggler, .navbar-toggler-icon{
+        visibility: hidden;
+    }
+
+    .container h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .common{
+        border: 2px solid grey;
+        width: 30%;
+        padding: 10px;
+        margin: 7px;
+        margin-top: 30px;
+        
+        background-color: grey;
+    }
+
+    .common p a{
+        text-decoration:none;
+        color:rgb(35, 107, 241);
+    }
+
+    .common h3{
+        text-align: center;
+    }
+
+    #tiles{
+        margin-left: 20px;
+    }
+
+   
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    body {
+        margin:0px;
+        padding: 0px;
+    }
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 80px;
+        font-weight: bolder;
+        
+    }
+
+    .container-fluid{
+        background-color: rgba(100, 93, 93, 0.192);
+        margin: 0px;
+        padding: 5px;
+        border: 2px solid black;
+    }
+
+    #navbarSupportedContent{
+        visibility: hidden;
+    }
+
+    .navbar-toggler, .navbar-toggler-icon{
+        visibility: hidden;
+    }
+
+    .container h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .common{
+        border: 2px solid grey;
+        width: 45%;
+        margin: 7px;
+        margin-top: 30px;
+       
+        background-color: grey;
+    }
+
+    .common p a{
+        text-decoration:none;
+        color:rgb(35, 107, 241);
+    }
+
+    #Sushi{
+        width: 91%;
+    }
+
+    .common h3{
+        text-align: center;
+    }
+
+    #tiles{
+        margin-left: 20px;
+    }
+
+
+}
+
+@media (max-width: 575px){
+    body {
+        margin:0px;
+        padding: 0px;
+    }
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 80px;
+        font-weight: bolder;
+    }
+
+    .container-fluid{
+        background-color: rgba(100, 93, 93, 0.192);
+        margin: 0px;
+        padding: 5px;
+        border: 2px solid black;
+    }
+
+    #navbarSupportedContent{
+        margin-top: 7px;
+        background-color: white;
+        width: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        font-size: 20px;
+        font-family:'Courier New', Courier, monospace;
+        color: black;
+        padding: 0px;
+    }
+
+    .container h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .common{
+        border: 2px solid grey;
+        width: 91%;
+        margin: 7px;
+        margin-top: 30px;
+      
+        background-color: grey;
+    }
+
+    .common p a{
+        text-decoration:none;
+        color:rgb(35, 107, 241);
+    }
+
+    .common h3{
+        text-align: center;
+    }
+
+    #tiles{
+        margin-left: 20px;
+    }
+}
+
+
+
